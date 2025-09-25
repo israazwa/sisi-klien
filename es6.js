@@ -54,3 +54,20 @@ console.log(`Statusku ${statusMhs}`);
 
 const aktifMhs = mahasiswa.organisasi || "Tidak Aktif Organisasi";
 console.log(`Status Organisasi : ${aktifMhs}`);
+
+//ES6 - Array Method
+const namaMatkul = matkul.map((mk) => mk.matkulnama);
+console.log(namaMatkul);
+
+const listMhs = [
+    {nim : '2025', nama: 'Ray', status: true},
+    {nim : '2026', nama: 'Rani', status: false},
+    {nim : '2027', nama: 'Rara', status: true},
+];
+const mhsAktif = listMhs.filter((mhs) => mhs.status);
+console.log(mhsAktif);
+
+const totalNilai = matkul.reduce((total, mk) => total + mk.nilai, 0);
+console.log(`Total nilai saya adalah ${totalNilai}`);
+const rataRataNilai = totalNilai / matkul.length;
+console.log(`Rata-rata nilai saya adalah ${rataRataNilai}`);
