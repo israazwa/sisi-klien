@@ -7,9 +7,9 @@ import Link from "@/Pages/Layouts/Components/Link";
 import Card from "@/Pages/Layouts/Components/Card";
 import Heading from "@/Pages/Layouts/Components/Heading";
 import Form from "@/Pages/Layouts/Components/Form";
-import { dummyUser } from "@/Data/Dummy";
 import { toastSuccess, toastError } from "@/Utils/Helpers/ToastHelpers";
 
+import { dummyUser } from "@/Data/Dummy";
 
 const Login = () => {
   const navigate = useNavigate();
@@ -82,4 +82,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Login

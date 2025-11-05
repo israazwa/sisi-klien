@@ -1,6 +1,6 @@
 // Dummy user untuk login
 export const dummyUser = {
-  email: "admin@mail.com",
+  email: "admin@gmail.com",
   password: "123456",
   name: "Admin",
 };
@@ -8,8 +8,8 @@ export const dummyUser = {
 // Dummy data mahasiswa
 export const mahasiswaList = [
   {
-    nim: "20211001",
-    nama: "Budi Santoso",
+    nim: "A11.2022.14655",
+    nama: "Nauval Sutisna",
   },
   {
     nim: "20211002",
